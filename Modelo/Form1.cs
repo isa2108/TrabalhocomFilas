@@ -181,7 +181,7 @@ namespace Modelo
             }
             else if (filaPref.Count > 0 && filaNormal.Count == 0)
             {
-                p = filaNormal.Peek();
+                p = filaPref.Peek();
                 lblProx.Text = p.Nome;
                 removePref();
             }
